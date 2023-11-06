@@ -287,6 +287,8 @@ ul{
 
     nav ul{
         display: block;
-        margin-right: ;
+        margin-right: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
     }
