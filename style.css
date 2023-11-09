@@ -396,7 +396,27 @@ ul{
         display: block;
         cursor: pointer;
     }
+    .tarjeta-wrap{
+        flex-basis: 100%;
+        width: 100%;
+        display: block;
+        margin: 25px;
+    }
 }
+
+/*-------------All products page (carol)---------*/
+.row-2{
+    justify-content: space-between;
+    margin: 100px auto 50px;
+}
+select{
+    border: 1px solid #c1a28e;
+    padding: 5px;
+}
+select:focus{
+    outline: none;
+}
+
 
 /*--media query for less than 600 screen size*/
 
@@ -407,4 +427,11 @@ ul{
     .col-2, .col-3, .col-4{
         flex-basis: 100%;
     }
+    .tarjeta-wrap{
+        flex-basis: 100%;
+        width: 100%;
+        display: block;
+        margin: 25px;
+    }
 }
+
