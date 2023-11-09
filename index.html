@@ -15,7 +15,6 @@
 </head>
 
 <body>
-
     <div class="header">
 
         <div class="container">
@@ -24,7 +23,7 @@
                     <img src="images/logo.png" width="125px">
                 </div>
                 <nav>
-                    <ul>
+                    <ul id="MenuItems">
                         <li><a href="">Home</a></li>
                         <li><a href="">Products</a></li>
                         <li><a href="">About</a></li>
@@ -33,7 +32,8 @@
                     </ul>
                 </nav>
                 <img src="images/cart.png" width="30px" height="30px">
-                <img src="images/menu.png" class="menu-icon">
+                <img src="images/menu.png" class="menu-icon" 
+                onclick="menutoggle()">
             </div>
             <div class="row">
                 <div class="col-2">
@@ -50,7 +50,7 @@
         </div>
     </div>
 
-      <!----------featured categories ----------->
+      <!----------featured categories ----------
       <div class="categories">
         <div class="small-container">
             <div class="row">
@@ -66,9 +66,35 @@
             </div>
         </div>
         
-      </div>
+      </div> -->
 
-
+      <div class="wrap">
+		<div class="tarjeta-wrap">
+			<div class="tarjeta">
+				<div class="adelante card1"></div>
+				<div class="atras">
+				<p>We have a wide selection of coffees available in our online store for lovers of the most intense or sweetest coffee.</p>
+				</div>
+			</div>
+		</div>
+		<div class="tarjeta-wrap">
+			<div class="tarjeta">
+				<div class="adelante card2"></div>
+				<div class="atras">
+					<p>We also have a large selection of teas of all types and flavors. Tropical, sweet and the most exotic flavors are available.</p>
+				</div>
+			</div>
+		</div>
+		<div class="tarjeta-wrap">
+			<div class="tarjeta">
+				<div class="adelante card3"></div>
+				<div class="atras">
+					<p>And to complement these sections we have available to the customer some models of great iron teapots to prepare delicious teas.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+     
     <!----------featured products ----------->
     <div class="small-container">
         <h2 class="title">Most Selled Products</h2>
@@ -333,24 +359,24 @@
             <p class="copyright"><b>Copyright © </b> - Website made by: Carolina, Miriam y Ari</p>
         </div>
     </div>
-    <!-------------Esperando a que lo otro esté terminado------------------
+    <!------- js for toggle menu ------------->
     <script>
         var MenuItems = document.getElementById("MenuItems");
 
         MenuItems.style.maxHeight = "0px";
 
-        function menutoogle(){
-            if(MenuItems.style.maxHeight == "0px";)
+        function menutoggle(){
+            if(MenuItems.style.maxHeight == "0px")
                 {
-                MenuItems.style.maxHeight = "200px";  
+                MenuItems.style.maxHeight = "200px"  
                 }
             else
                 {
-                MenuItems.style.maxHeight = "0px";  
+                MenuItems.style.maxHeight = "0px"  
                 }
         }
     </script>
-    -->
+
 </body>
 
 </html>
