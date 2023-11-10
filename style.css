@@ -361,49 +361,12 @@ ul{
     text-align: center;
 }
 
-/*-------Menu----------*/
+/*-------Menu (miriam)----------*/
 .menu-icon{
     width: 28px;
     margin-left: 20px;
     display: none;
 }
-/*-------- media query for menu --------*/
-
-@media only screen and (max-width: 800px){
-    nav ul{
-        position: absolute;
-        margin-top: 20px;
-        top: 70px;
-        left: 0;
-        background: #333;
-        width:100%;
-        overflow: hidden;
-        transition: max-height 0.5s;
-        }
-
-    nav ul li{
-        display: block;
-        margin-right: 50px;
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
-
-    nav ul li a{
-        color:#fff;
-    }
-
-    .menu-icon{
-        display: block;
-        cursor: pointer;
-    }
-    .wrap{
-        flex-basis: 100%;
-        width: 100%;
-        display: block;
-        margin: 25px;
-    }
-}
-
 /*-------------All products page (carol)---------*/
 .row-2{
     justify-content: space-between;
@@ -434,7 +397,43 @@ select:focus{
     color: #fff;
 }
 
+ /*-------- media query for menu (miriam) --------*/
 
+@media only screen and (max-width: 800px){
+    nav ul{
+        position: absolute;
+        margin-top: 50px;
+        top: 70px;
+        left: 0;
+        background: #5e6852;
+        width:100%;
+        overflow: hidden;
+        transition: max-height 0.5s;
+        }
+
+    nav ul li{
+        display: block;
+        margin-right: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    nav ul li a{
+        color:#fff;
+    }
+
+    .menu-icon{
+        display: block;
+        cursor: pointer;
+    }
+    .wrap{
+        display: block;
+        align-content: center;
+        flex-basis: 100%;
+        width: 100%;
+        margin: 25px;
+    }
+}
 
 /*--media query for less than 600 screen size*/
 
@@ -446,6 +445,7 @@ select:focus{
         flex-basis: 100%;
     }
     .wrap{
+        align-items: center;
         flex-basis: 100%;
         width: 100%;
         display: block;
