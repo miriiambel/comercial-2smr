@@ -32,6 +32,7 @@ a{
 p{
     color: #555;
 }
+
 .container{
     max-width: 1300px;
     margin: auto;
@@ -44,6 +45,7 @@ p{
     flex-wrap: wrap;
     justify-content: space-around;
 }
+
 .col-2{
     flex-basis: 50%;
     min-width: 300px;
@@ -78,6 +80,7 @@ p{
 .categories{
     margin: 70px 0;
 }
+
 /*CATEGORIES (miriam)*/
 .wrap{
 	width: 1100px;
@@ -196,6 +199,7 @@ p{
 .col-4 img{
     width: 100%;
 }
+
 .title{
     text-align: center;
     margin: 0 auto 80px;
@@ -241,7 +245,7 @@ small{
     color: #555;
 }
 
-/*-------testimonial-----------*/
+/*-------testimonial-----------*/ 
 .testimonial{
     padding-top: 100px;
 }
