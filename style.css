@@ -396,7 +396,7 @@ ul{
         display: block;
         cursor: pointer;
     }
-    .tarjeta-wrap{
+    .wrap{
         flex-basis: 100%;
         width: 100%;
         display: block;
@@ -445,7 +445,7 @@ select:focus{
     .col-2, .col-3, .col-4{
         flex-basis: 100%;
     }
-    .tarjeta-wrap{
+    .wrap{
         flex-basis: 100%;
         width: 100%;
         display: block;
