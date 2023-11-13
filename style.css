@@ -32,7 +32,6 @@ a{
 p{
     color: #555;
 }
-
 .container{
     max-width: 1300px;
     margin: auto;
@@ -77,6 +76,7 @@ p{
 .header .row{
     margin-top: 70px;
 }
+
 .categories{
     margin: 70px 0;
 }
@@ -104,7 +104,7 @@ p{
 .tarjeta{
 	width: 350px;
 	height: 350px;
-	background: #F29720;
+	background: #c1a28e;
 	position: relative;
 	-webkit-transform-style: preserve-3d;
 	transform-style: preserve-3d;
@@ -114,7 +114,6 @@ p{
 	box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65);
 
 }
-
 .adelante, .atras{
 	width: 100%;
 	height: 100%;
@@ -150,8 +149,9 @@ p{
 	text-align: center;
 	color: #fff;
 	font-family: "open sans";
-  background: #c1a28e;
+    background: #c1a28e;
 }
+
 .tarjeta-wrap:hover .tarjeta{
 	-webkit-transform: rotateY(180deg);
 	transform: rotateY(180deg);
@@ -181,6 +181,7 @@ p{
 .col-3 img{
     width: 100%;
 }
+
 .small-container{
     max-width: 1080px;
     margin: auto;
@@ -293,6 +294,7 @@ small{
     width: 100%;
     cursor: pointer;
     filter: grayscale(100%);
+    transition: filter 0.5s;
 }
 
 .col-5 img:hover{
@@ -430,12 +432,13 @@ select:focus{
         display: block;
         cursor: pointer;
     }
+    
     .wrap{
         display: block;
         align-content: center;
         flex-basis: 100%;
-        width: 100%;
         margin: 25px;
+        width: 100%;
     }
 }
 
@@ -472,4 +475,42 @@ select:focus{
     margin: 20 px 0;
     font-size: 22px;
     font-weight: bold;
+}
+
+/*-------cart items-------*/
+
+.cart-page{
+    margin: 80px auto;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.cart-info{
+    display: flex;
+    flex-wrap: wrap;
+}
+th{
+    text-align: left;
+    padding: 5px;
+    color:#fff;
+    background: #c1a28e;
+    font-weight: normal;
+}
+td{
+    padding: 10px 5px;
+}
+td input{
+    width: 40px;
+    height: 30px;
+    padding: 5px;
+}
+td a{
+    color: #c1a28e;
+    font-size: 12px;
+}
+td img{
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
 }
