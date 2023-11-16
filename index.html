@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Coffee - Tea - Coffee & Tea</title>
+    <title>Home page | Coffee & Tea</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="contact.html">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -20,6 +20,7 @@
 </head>
 
 <body>
+    <!--header (ari)-->
     <div class="header">
 
         <div class="container">
@@ -29,11 +30,10 @@
                 </div>
                 <nav>
                     <ul id="MenuItems">
-                        <li><a href="">Home</a></li>
-                        <li><a href="">Products</a></li>
-                        <li><a href="">About</a></li>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
                         <li><a href="contact.html" target="_blank">Contact</a></li>
-                        <li><a href="">Account</a></li>
+                        <li><a href="cart.html">Cart</a></li>
                     </ul>
                 </nav>
                 <img src="images/cart.png" width="30px" height="30px">
@@ -55,7 +55,7 @@
         </div>
     </div>
 
-      <!----------featured categories ----------
+      <!----------featured categories (ari) ----------
       <div class="categories">
         <div class="small-container">
             <div class="row">
@@ -72,36 +72,42 @@
         </div>
         
       </div> -->
+<!--------featured categories (miriam version) ---------->
+    <div id="categories-m">
+        <div class="wrap">
+		    <div class="tarjeta-wrap">
+			    <div class="tarjeta">
+				    <div class="adelante card1"></div>
+				    <div class="atras">
+				        <p>We have a wide selection of coffees available in our online store for lovers of the most intense or sweetest coffee.</p>
+				    </div>
+			    </div>
+		    </div>
 
-      <div class="wrap">
-		<div class="tarjeta-wrap">
-			<div class="tarjeta">
-				<div class="adelante card1"></div>
-				<div class="atras">
-				<p>We have a wide selection of coffees available in our online store for lovers of the most intense or sweetest coffee.</p>
-				</div>
-			</div>
-		</div>
-		<div class="tarjeta-wrap">
-			<div class="tarjeta">
-				<div class="adelante card2"></div>
-				<div class="atras">
-					<p>We also have a large selection of teas of all types and flavors. Tropical, sweet and the most exotic flavors are available.</p>
-				</div>
-			</div>
-		</div>
-		<div class="tarjeta-wrap">
-			<div class="tarjeta">
-				<div class="adelante card3"></div>
-				<div class="atras">
-					<p>And to complement these sections we have available to the customer some models of great iron teapots to prepare delicious teas.</p>
-				</div>
-			</div>
-		</div>
-	</div>
-     
-    <!----------featured products ----------->
-    <div class="small-container">
+		    <div class="tarjeta-wrap">
+			    <div class="tarjeta">
+				    <div class="adelante card2"></div>
+				        <div class="atras">
+					        <p>We also have a large selection of teas of all types and flavors. Tropical, sweet and the most exotic flavors are available.</p>
+				        </div>
+			    </div>
+		    </div>
+
+		    <div class="tarjeta-wrap">
+			    <div class="tarjeta">
+				    <div class="adelante card3"></div>
+				        <div class="atras">
+					        <p>And to complement these sections we have available to the customer some models of great iron teapots to prepare delicious teas.</p>
+				        </div>
+			    </div>
+		    </div>
+	    </div>
+    </div> 
+    <!----------featured products (carolina) ----------->
+
+    <div id="selled-products">
+        <div class="small-container">
+        <!--Most Selled-->
         <h2 class="title">Most Selled Products</h2>
         <div class="row">
             <div class="col-4">
@@ -114,47 +120,8 @@
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star-half-o"></i>
                 </div>
-                <p>$6.50</p>
+                <p>$3.50 / 100gr</p>
             </div>
-            <div class="col-4">
-                <img src="images/product-2.jpg">
-                <h4>Pumpkin Spice Instant Coffee</h4>
-                <div class="rating">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star-o"></i>
-                </div>
-                <p>$6.99</p>
-            </div>
-            <div class="col-4">
-                <img src="images/product-3.jpg">
-                <h4>Colombian Organic Coffee</h4>
-                <div class="rating">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                </div>
-                <p>$8.95</p>
-            </div>
-            <div class="col-4">
-                <img src="images/product-4.jpg">
-                <h4>Robusta Coffee Beans</h4>
-                <div class="rating">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star-o"></i>
-                </div>
-                <p>$7.99</p>
-            </div>
-        </div>
-        <h2 class="title">Latest Products</h2>
-        <div class="row">
             <div class="col-4">
                 <img src="images/product-5.jpg">
                 <h4>Large Brown Iron Teapot</h4>
@@ -168,42 +135,16 @@
                 <p>$25.00</p>
             </div>
             <div class="col-4">
-                <img src="images/product-6.jpg">
-                <h4>Green Tea</h4>
+                <img src="images/product-3.jpg">
+                <h4>Colombian Organic Coffee</h4>
                 <div class="rating">
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
-                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star"></i>
                 </div>
-                <p>$7.50</p>
-            </div>
-            <div class="col-4">
-                <img src="images/product-7.jpg">
-                <h4>Black Tea With Cinnamon</h4>
-                <div class="rating">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star-half-o"></i>
-                </div>
-                <p>$7.95</p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-4">
-                <img src="images/product-8.jpg">
-                <h4>Small Black Iron Teapot</h4>
-                <div class="rating">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star-o"></i>
-                </div>
-                <p>$18.95</p>
+                <p>$3.95 / 100gr</p>
             </div>
             <div class="col-4">
                 <img src="images/product-9.jpg">
@@ -215,11 +156,16 @@
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
                 </div>
-                <p>$8.50</p>
+                <p>$4.95 / 100gr</p>
             </div>
+        </div>
+        <!--Latest-->
+        <h2 class="title">Latest Products</h2>
+        <div class="row">
+            
             <div class="col-4">
-                <img src="images/product-10.jpg">
-                <h4>Chai Tea</h4>
+                <img src="images/product-2.jpg">
+                <h4>Pumpkin Spice Instant Coffee</h4>
                 <div class="rating">
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
@@ -227,11 +173,115 @@
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star-o"></i>
                 </div>
-                <p>$7.95</p>
+                <p>$3.50 / 100gr</p>
+            </div>
+
+            <div class="col-4">
+                <img src="images/product-6.jpg">
+                <h4>Green Tea</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                <p>$3.50 / 100gr</p>
+            </div>
+
+            <div class="col-4">
+                <img src="images/product-7.jpg">
+                <h4>Black Tea With Cinnamon</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                <p>$3.95 / 100gr</p>
+            </div>
+
+            <div class="col-4">
+                <img src="images/product-4.jpg">
+                <h4>Robusta Coffee Beans</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                 </div>
+                <p>$4.95 / 100gr</p>
             </div>
         </div>
-    </div>
+    
 
+    <!--limited edition-->
+    <h2 class="title">Limited edition</h2>
+        <div class="row">
+            <div class="col-4">
+                <a href="product-details-VanGogh.html">
+                <img src="images/limited4.jpg">
+                <h4>Van Gogh Coffee</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$4.95 / 100gr</p>
+                </a>
+            </div>
+
+            <div class="col-4">
+                <a href="product-details-Marilyn.html">
+                <img src="images/limited2.jpg">
+                <h4>Marilyn Monroe Coffee</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>$4.95 / 100gr</p>
+                </a>
+            </div>
+
+            <div class="col-4">
+                <a href="product-details-MonaLisa.html">
+                <img src="images/limited3.jpg">
+                <h4>Mona Lisa Coffee</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$4.95 / 100gr</p>
+                </a>
+            </div>
+
+            <div class="col-4">
+                <a href="product-details-Dali.html">
+                <img src="images/limited1.jpg">
+                <h4>Dali Coffee</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>$4.95 / 100gr</p>
+                </a>
+            </div>
+
+        </div>
+        </div>
 <!------pack de cafe------> 
     <div class="offer">
         <div class="small-container">
@@ -248,7 +298,7 @@
             </div>
         </div>
     </div>
-
+    </div>
 <!----------testimonial--------->
     <div class="testimonial">
         <div class="small-container">
@@ -335,8 +385,7 @@
             </div>
             </div>
             <div class="footer-col-1">
-                <!-------------------------FALTA EL LOGO---------------------------->
-                <img src="#" alt="IMAGE-LOGO">
+                <img src="images/logo.png" alt="IMAGE-LOGO" width="150px">
                 <p>Our purpose is to ensure that we offer the best experience to our consumers.</p>
             </div>
             <div class="footer-col-3">

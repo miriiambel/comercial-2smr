@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<!------- MIRIAM ---------->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Van Gogh Coffee | Coffee & Tea</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/8de2e6b9e2.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    
+<!--header (ari)-->
+<div class="container">
+    <div class="navbar">
+        <div class="logo">
+            <img src="images/logo.png" width="125px">
+        </div>
+        <nav>
+            <ul id="MenuItems">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="contact.html" target="_blank">Contact</a></li>
+                <li><a href="cart.html">Cart</a></li>
+            </ul>
+        </nav>
+        <img src="images/cart.png" width="30px" height="30px">
+        <img src="images/menu.png" class="menu-icon" 
+        onclick="menutoggle()">
+    </div>
+</div>
+</div>
+
+    <!-- single product details (miriam)-->
+        
+        <div class="small-container single-product">
+            <div class="row">
+            <div class="col-2">
+                <img src="images/coffee-gogh.jpg" id="ProductImg" width="100%" alt="image1">
+
+                <div class="small-img-row">
+                    <div class="small-img-col">
+                        <img src="images/coffee-gogh.jpg" width="100%"
+                        class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="images/taza-1.jpg" width="100%"
+                        class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="images/coffee-3.jpg" width="100%"
+                        class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="images/foto-gogh.jpg" width="100%"
+                        class="small-img">
+                    </div>
+                </div>
+
+
+
+                </div>
+                <div class="col-2">
+                    <p>Coffee / Van Gogh Edition</p>
+                    <h1>Van Gogh Coffe Edition</h1>
+                    <h4>$4.95 / 100gr</h4>
+                    <select id="select-size">
+                        <option>Select quantity</option>
+                        <option>50gr</option>
+                        <option>100gr</option>
+                        <option>150gr</option>
+                        <option>250gr</option>
+                    </select>
+                    <input id="input-number" type="number" value="1">
+                    <a href="" class="btn">Add to Cart</a>
+                    
+                    <h3>Product Details <i class="fa-solid fa-indent"></i></h3>
+                    <br>
+                    <p>Immerse yourself in the aromatic intensity of our Van Gogh coffee, a masterpiece in each bean. Inspired by the palette of genius, each cup is a fusion of vibrant and deep notes, like brushstrokes on a sunny morning. Discover the unique harmony of flavors that bring your morning ritual to life, bringing Van Gogh's creativity to your cup, where art and coffee meet.</p>
+                </div>
+            </div>
+        </div>
+
+
+    <!--------- title --------->
+        <div class="small-container">
+            <div class="row row-2">
+                <h2>Related Products</h2>
+                <a href="products.html">View more</a>
+            </div>
+        </div>
+    <!------- products --------->
+    <div class="small-container">
+        <div class="row">
+            <div class="col-4">
+                <a href="product-details-Marilyn.html">
+                <img src="images/limited2.jpg">
+                <h4>Marilyn Monroe Coffee</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>$4.95 / 100gr</p>
+                </a>
+            </div>
+
+            <div class="col-4">
+                <a href="product-details-MonaLisa.html">
+                <img src="images/limited3.jpg">
+                <h4>Mona Lisa Coffee</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$4.95 / 100gr</p>
+                </a>
+            </div>
+
+            <div class="col-4">
+                <a href="product-details-Dali.html">
+                <img src="images/limited1.jpg">
+                <h4>Dali Coffee</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>$4.95 / 100gr</p>
+                </a>
+            </div>
+            
+        </div>
+    </div>
+    
+    <!------- footer (miriam) ------->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Much more on the App!!</h3>
+                    <p>Download App for Android and iOS Mobile Phone</p>
+                    <div class="app-logo">
+                        <a href="https://play.google.com/store/games?hl=es&gl=US" target="_blank">
+                            <img src="images/play-store.png" alt="PlayStoreImage"></a>
+                        <a href="https://www.apple.com/es/app-store/" target="_blank">
+                            <img src="images/app-store.png" alt="AppStoreImage"></a>
+                </div>
+                </div>
+                <div class="footer-col-1">
+                    <img src="images/logo.png" alt="IMAGE-LOGO" width="150px">
+                    <p>Our purpose is to ensure that we offer the best experience to our consumers.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li><a href="#" target="_blank">Coupons</a></li>
+                        <li><a href="#" target="_blank">Blog Post</a></li>
+                        <li><a href="#" target="_blank">Return Policy</a></li>
+                        <li><a href="#" target="_blank">Join Affiliate</a></li>
+                        <li><a href="#" target="_blank">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li><a href="https://www.facebook.com/?locale=es_ES" target="_blank">Facebook</a></li>
+                        <li><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
+                        <li><a href="https://twitter.com/?lang=es" target="_blank">Twitter</a></li>
+                        <li><a href="https://www.tiktok.com/es/" target="_blank">TikTok</a></li>
+                        <li><a href="https://www.youtube.com/?gl=ES&hl=es" target="_blank">YouTube</a></li>
+                    </ul>
+                    </div>
+                </div>
+                <hr>
+                <p class="copyright"><b>Copyright © </b> - Website made by: Carolina, Miriam y Ari</p>
+            </div>
+        </div>
+        <!------- js for toggle menu ------------->
+        <script>
+            var MenuItems = document.getElementById("MenuItems");
+    
+            MenuItems.style.maxHeight = "0px";
+    
+            function menutoggle(){
+                if(MenuItems.style.maxHeight == "0px")
+                    {
+                    MenuItems.style.maxHeight = "200px"  
+                    }
+                else
+                    {
+                    MenuItems.style.maxHeight = "0px"  
+                    }
+            }
+        </script>
+    
+        <!-------- js for product gallery ----------->
+        <script>
+            var ProductImg = document.getElementById("ProductImg");
+            var SmallImg = document.getElementsByClassName("small-img");
+
+            SmallImg[0].onclick = function()
+                {
+                    ProductImg.src = SmallImg[0].src;
+                }
+            SmallImg[1].onclick = function()
+                {
+                    ProductImg.src = SmallImg[1].src;
+                }
+            SmallImg[2].onclick = function()
+                {
+                    ProductImg.src = SmallImg[2].src;
+                }
+            SmallImg[3].onclick = function()
+                {
+                    ProductImg.src = SmallImg[3].src;
+                }
+        </script>
+
+    </body>
+    
+    </html>
