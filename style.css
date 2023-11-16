@@ -85,7 +85,7 @@ p{
     background: radial-gradient(#fff,#c1a28e);
 }
 .header .row{
-    margin-top: 70px;
+    margin-top: 10px;
 }
 
 .categories{
@@ -412,21 +412,16 @@ select:focus{
     text-align: center;
     line-height: 40px;
     cursor: pointer;
+    transition: background 0.5s;
 }
 .page-btn span:hover{
-    background: #909e7f;
+    background: #c1a28e;
     color: #fff;
 }
 
-<<<<<<< HEAD
  
 
  @media only screen and (max-width: 800px){
-=======
- /*-------- media query for menu (miriam) --------*/
-
-@media only screen and (max-width: 800px){
->>>>>>> 3944e84a109fe3f1a54d4c1bc31994e08cb3f752
     nav ul{
         position: absolute;
         margin-top: 50px;
@@ -461,7 +456,6 @@ select:focus{
         margin: 25px;
         width: 100%;
     }
-<<<<<<< HEAD
     #MenuItems a{
         color: #fff;
         transition: font-weight 0.5s;
@@ -471,9 +465,47 @@ select:focus{
         font-weight: bold;
         
     }
-=======
->>>>>>> 3944e84a109fe3f1a54d4c1bc31994e08cb3f752
 }
+
+/*------- account (Ari) -------*/
+.account-page{
+    padding: 50ox 0;
+   
+}
+.form-container{
+    background: #c1a28e;
+    width: 300px;
+    height: 400px;
+    position: relative;
+    text-align: center;
+    padding: 20px 0;
+    margin: auto;
+    box-shadow: 0 0 20px 0px reba(0,0,0,0.1);
+}
+.form-container span{
+    font-weight: bold;
+    padding: 0 10px;
+    color: #555;
+    cursor: pointer;
+    width: 100px;
+    display: inline-block ;
+}
+.form-btn{
+    display: inline-block;
+}
+.form-container form{
+    max-width: 300px;
+    padding: 0 20px;
+    position: absolute;
+    top: 130px;
+}
+form input{
+    width: 100%;
+    height: 30px;
+    margin: 10px 0;
+    border 1px solid 
+}
+
 
 /*--media query for less than 600 screen size*/
 
@@ -510,6 +542,9 @@ select:focus{
         font-size: 26px;
         line-height: 32px;
     }
+    .cart-info p{
+        display: none;
+    }
 }
 
 /*----- single product details (miriam) -------*/
@@ -524,7 +559,6 @@ select:focus{
     padding: 20px;
 }
 .single-product h4{
-<<<<<<< HEAD
     margin: 20px 0;
     font-size: 22px;
     font-weight: bold;
@@ -560,14 +594,6 @@ input:focus{
     cursor: pointer;
 }
 /*-------cart items (carolina) -------*/
-=======
-    margin: 20 px 0;
-    font-size: 22px;
-    font-weight: bold;
-}
-
-/*-------cart items-------*/
->>>>>>> 3944e84a109fe3f1a54d4c1bc31994e08cb3f752
 
 .cart-page{
     margin: 80px auto;
@@ -603,4 +629,98 @@ td img{
     width: 80px;
     height: 80px;
     margin-right: 10px;
+}
+.total-price{
+    display: flex;
+    justify-content: flex-end;
+}
+.total-price table{
+    border-top: 3px solid #c1a28e;
+    width: 100%;
+    max-width: 530px;
+}
+#btn-buy{
+    padding: 10px 20px;
+    display: block;
+    background: #909e7f;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.5s;
+}
+#btn-buy:hover{
+    background: #5e6852;
+    box-shadow: 5px 5px 20px #5e6852;
+}
+td:last-child{
+    text-align: right;
+}
+th:last-child{
+    text-align: right;
+}
+
+/* ---------- contact (Ari) ---------- */
+.contact-left{
+    flex-basis: 35%;
+}
+
+.contact-right{
+    flex-basis: 60%;
+}
+
+.contact-left p{
+    margin-top: 30px;
+}
+
+.contact-left p i{
+    color: #5e6852;
+    margin-right: 15px;
+    font-size: 25px;
+}
+
+.social-icons{
+    margin-top: 30px;
+}
+
+.social-icons a{
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 15px;
+    color: #5e6852;
+    display: inline-block;
+    transition: transform 0.5s;
+}
+
+.social-icons a:hover{
+    color: #5e6852;
+    transform: translateY(-5px);
+}
+
+.btn.btn2{
+      display: inline-block;
+      background: #5e6852;
+}
+
+.contact-right form{
+    width: 100%;
+}
+
+form input, form textarea{
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: #c1a28e;
+    padding: 15px;
+    margin: 15px 0;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 6px;
+}
+
+form btn2{
+    padding: 14px 60px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
 }
