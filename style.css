@@ -3,7 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+html{
+    scroll-behavior: smooth;
+}
 body{
     font-family: 'Poppins', sans-serif;
     background-color: #dfccc0;
@@ -83,6 +85,7 @@ p{
 }
 .header{
     background: radial-gradient(#fff,#c1a28e);
+    width: 100%;
 }
 .header .row{
     margin-top: 10px;
@@ -94,7 +97,7 @@ p{
 
 /*CATEGORIES (miriam)*/
 .wrap{
-	width: 1100px;
+	width: 100%;
 	margin: 50px auto;
 	display: -webkit-box;
 	display: -webkit-flex;
@@ -104,6 +107,7 @@ p{
 	-webkit-justify-content: center;
 	-ms-flex-pack: center;
 	justify-content: center;
+    align-items: center;
 }
 
 .tarjeta-wrap{
@@ -452,8 +456,8 @@ select:focus{
     .wrap{
         display: block;
         align-content: center;
+        margin-left: 125px;
         flex-basis: 100%;
-        margin: 25px;
         width: 100%;
     }
     #MenuItems a{
@@ -465,6 +469,7 @@ select:focus{
         font-weight: bold;
         
     }
+
 }
 
 /*------- account (Ari) -------*/
@@ -480,7 +485,14 @@ select:focus{
     text-align: center;
     padding: 20px 0;
     margin: auto;
-    box-shadow: 0 0 20px 0px reba(0,0,0,0.1);
+    box-shadow:  10px 10px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    border-radius: 7px;
+}
+.form-container input{
+    border-radius: 0px;
+    border: none;
+    border-bottom: 2px solid #d3c1b6;
 }
 .form-container span{
     font-weight: bold;
@@ -488,7 +500,8 @@ select:focus{
     color: #555;
     cursor: pointer;
     width: 100px;
-    display: inline-block ;
+    
+    display: inline-block;
 }
 .form-btn{
     display: inline-block;
@@ -498,6 +511,7 @@ select:focus{
     padding: 0 20px;
     position: absolute;
     top: 130px;
+    transition: transform 1s;
 }
 form input{
     width: 100%;
@@ -505,11 +519,41 @@ form input{
     margin: 10px 0;
     border: 1px solid #ccc;
 }
+form .btn{
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    margin: 10px 0;
+}
+form .btn:focus{
+    outline: none;
+}
+#LoginForm{
+    left: -300px;
+}
+#RegForm{
+    left: 0;
+}
+form a{
+    font-size: 12px;
+}
+#Indicator{
+    width: 100px;
+    border: none;
+    background: #909e7f;
+    height: 3px;
+    margin-top: 8px;
+    transform: translateX(100px);
+    transition: transform 1s;
+}
 
 
 /*--media query for less than 600 screen size*/
 
 @media only screen and (max-width: 600px) {
+    .header{
+        width: 100%;
+    }
     .row{
         text-align: center;
     }
@@ -517,11 +561,11 @@ form input{
         flex-basis: 100%;
     }
     .wrap{
-        align-items: center;
         flex-basis: 100%;
         width: 100%;
+        padding-left: 50px;
         display: block;
-        margin: 25px;
+        margin-left: 15px;
     }
     #MenuItems a{
         color: #fff;
