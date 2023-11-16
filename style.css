@@ -493,7 +493,7 @@ select:focus{
 /*------- account (Ari) -------*/
 .account-page{
     padding: 50ox 0;
-   
+   margin-bottom: 35px;
 }
 .form-container{
     background: #c1a28e;
