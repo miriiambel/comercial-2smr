@@ -91,6 +91,7 @@ p{
 .categories{
     margin: 70px 0;
 }
+
 /*CATEGORIES (miriam)*/
 .wrap{
 	width: 1100px;
@@ -417,9 +418,15 @@ select:focus{
     color: #fff;
 }
 
+<<<<<<< HEAD
  
 
  @media only screen and (max-width: 800px){
+=======
+ /*-------- media query for menu (miriam) --------*/
+
+@media only screen and (max-width: 800px){
+>>>>>>> 3944e84a109fe3f1a54d4c1bc31994e08cb3f752
     nav ul{
         position: absolute;
         margin-top: 50px;
@@ -454,6 +461,7 @@ select:focus{
         margin: 25px;
         width: 100%;
     }
+<<<<<<< HEAD
     #MenuItems a{
         color: #fff;
         transition: font-weight 0.5s;
@@ -463,6 +471,8 @@ select:focus{
         font-weight: bold;
         
     }
+=======
+>>>>>>> 3944e84a109fe3f1a54d4c1bc31994e08cb3f752
 }
 
 /*--media query for less than 600 screen size*/
@@ -514,6 +524,7 @@ select:focus{
     padding: 20px;
 }
 .single-product h4{
+<<<<<<< HEAD
     margin: 20px 0;
     font-size: 22px;
     font-weight: bold;
@@ -549,6 +560,14 @@ input:focus{
     cursor: pointer;
 }
 /*-------cart items (carolina) -------*/
+=======
+    margin: 20 px 0;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/*-------cart items-------*/
+>>>>>>> 3944e84a109fe3f1a54d4c1bc31994e08cb3f752
 
 .cart-page{
     margin: 80px auto;
